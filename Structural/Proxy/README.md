@@ -1,0 +1,2 @@
+The Proxy Pattern is a structural design pattern that provides a substitute or placeholder for another object to control access to it. 
+The proxy acts as an intermediary, adding extra functionality like lazy initialization, access control, logging, or caching.
