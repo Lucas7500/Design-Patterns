@@ -1,11 +1,6 @@
-﻿using Behavioral.Strategy.Services;
-using Behavioral.Strategy;
-
-try
+﻿try
 {
-    var resource = new ResourceGenerator(new ResourceToTextStrategy()).Generate("Lucas");
-
-    Console.WriteLine(resource);
+    // You can test any of the behavioral patterns here
 }
 catch (Exception ex)
 {
