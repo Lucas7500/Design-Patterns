@@ -1,5 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Reflection.Emit;
+﻿using Behavioral.Strategy.Services;
+using Behavioral.Strategy;
 
-Console.WriteLine("Hello, World!");
-AssemblyBuilder
+try
+{
+    var resource = new ResourceGenerator(new ResourceToTextStrategy()).Generate("Lucas");
+
+    Console.WriteLine(resource);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}

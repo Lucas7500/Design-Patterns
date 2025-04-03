@@ -1,8 +1,8 @@
-﻿using Structural.Adapter.Interfaces;
+﻿using Behavioral.Strategy.Interfaces;
 
-namespace Structural.Adapter.Services
+namespace Behavioral.Strategy.Services
 {
-    internal class ResourceGenerator(IResourceAdapter resourceAdapter)
+    internal class ResourceGenerator(IResourceGenerationStrategy resourceAdapter)
     {
         public string Generate(string name)
         {

@@ -1,10 +1,10 @@
-﻿using Structural.Adapter.Interfaces;
-using Structural.Adapter.Models;
+﻿using Behavioral.Strategy.Interfaces;
+using Behavioral.Strategy.Models;
 using System.Xml.Serialization;
 
-namespace Structural.Adapter
+namespace Behavioral.Strategy
 {
-    internal class ResourceToXmlAdapter : IResourceAdapter
+    internal class ResourceToXmlStrategy : IResourceGenerationStrategy
     {
         public string Generate(string resourceName)
         {

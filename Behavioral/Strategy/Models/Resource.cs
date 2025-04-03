@@ -1,4 +1,4 @@
-﻿namespace Structural.Adapter.Models
+﻿namespace Behavioral.Strategy.Models
 {
     public class Resource
     {

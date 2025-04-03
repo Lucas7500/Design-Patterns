@@ -1,10 +1,10 @@
-﻿using Structural.Adapter.Interfaces;
-using Structural.Adapter.Models;
+﻿using Behavioral.Strategy.Interfaces;
+using Behavioral.Strategy.Models;
 using System.Text.Json;
 
-namespace Structural.Adapter
+namespace Behavioral.Strategy
 {
-    internal class ResourceToJsonAdapter : IResourceAdapter
+    internal class ResourceToJsonStrategy : IResourceGenerationStrategy
     {
         public string Generate(string resourceName)
         {
