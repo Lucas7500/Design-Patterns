@@ -1,0 +1,2 @@
+The Builder Pattern is a creational design pattern that simplifies the construction of complex objects by separating the object creation from its representation. 
+It allows you to build objects step by step, ensuring that all necessary attributes are properly set before finalization.

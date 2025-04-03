@@ -1,0 +1,2 @@
+The Prototype Pattern is a creational design pattern that allows objects to be cloned instead of being created from scratch. 
+This pattern is useful when object creation is costly, complex, or time-consuming, and we need to create multiple instances efficiently.
