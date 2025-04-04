@@ -1,0 +1,2 @@
+The Decorator Pattern is a structural design pattern that allows you to add new behavior or responsibilities to an object dynamically, without modifying its structure. 
+It works by wrapping the original object with a new object (the decorator) that adds the desired behavior.
