@@ -1,6 +1,6 @@
 ﻿using Creational.Prototype.Interfaces;
 
-namespace Creational.Prototype.Models
+namespace Creational.Prototype
 {
     internal class Rectangle(int width, int height) : IShape
     {
