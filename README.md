@@ -48,7 +48,9 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 - [x] Template Method  
 - [ ] Visitor  
 
-# 📚 References
+# References
 
 - *Design Patterns: Elements of Reusable Object-Oriented Software* by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (GoF)
 - [Refactoring.Guru](https://refactoring.guru/design-patterns)
+- [Renato Augusto - Youtube](https://www.youtube.com/@RenatoAugustoTech) 
+- [Geekfic - Youtube](https://www.youtube.com/@geekific) 
