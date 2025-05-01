@@ -39,7 +39,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 - [ ] Chain of Responsibility  
 - [ ] Command  
 - [ ] Interpreter  
-- [ ] Iterator  
+- [x] Iterator  
 - [ ] Mediator  
 - [ ] Memento  
 - [x] Observer  
